@@ -3,7 +3,7 @@ Voice recognition
 
  Semestral project: voice recognition utilizing signal processing techniques.
 
-Assingment
+Assignment
 ==========
 
  Find spoken words in the audio signal, which can only contain the words listed below.
