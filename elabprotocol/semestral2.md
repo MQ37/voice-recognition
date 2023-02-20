@@ -68,6 +68,28 @@ solution ('solution', 1762.02) ('disaster', 2606.38) ('probable', 2692.28)
 Correct: 8/10 (80.0%)
 ```
 
+Testování algoritmu na signálu Signal2.txt s vyznačením detekovaných slov:\
+![Signal2.txt s regiony](signal2_regions.png)
+
+Detekovaná slova pro vyznačené regiony v signálu Signal2.txt v pořadí podle vyznačení v grafu:
+```
+('no', 890.51) ('long', 916.48) ('work', 1288.38)
+('work', 1019.4) ('no', 1080.22) ('make', 1138.67)
+('make', 1513.01) ('work', 1536.62) ('give', 2257.57)
+('for', 1434.6) ('time', 1563.91) ('fail', 1606.92)
+```
+
+Testování algoritmu na signálu Signal3.txt s vyznačením detekovaných slov:\
+![Signal3.txt s regiony](signal3_regions.png)
+
+Detekovaná slova pro vyznačené regiony v signálu Signal3.txt v pořadí podle vyznačení v grafu:
+```
+('probable', 2502.2) ('lecture', 2810.97) ('prepare', 2842.08)
+('make', 1387.42) ('work', 1432.37) ('lecture', 1812.23)
+('easy', 1388.07) ('the', 1658.5) ('give', 1816.42)
+('easy', 1330.91) ('idea', 1590.2) ('long', 1593.63)
+```
+
 ### Závěr
 
 Prvotní detekce slov v záznamu s pauzou funguje vcelku dobře, až na nějáké nedostatky, a postup pro získání a porovnání vlastností slov je dostačující pro, v dost případech, správnou detekci. Algoritmus bohužel, i dle očekávání, selhává v detekci slov v řečí bez pauz, kde detekuje slova, které na místě nejsou, i menší části slov jako slovo jednotné. Většina dnešních algoritmů pro detekci slov v lidské řeči jsou založené na metodách strojového učení a možná k tomu bude nějáký důvod, možná jsou tyto klasické metody už nedostačující.
